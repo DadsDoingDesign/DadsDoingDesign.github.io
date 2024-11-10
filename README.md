@@ -1,4 +1,3 @@
-<!DOCTYPE HTML>
 <html>
 	<head>
 		<title>Iacchus Illustrations</title>
@@ -23,7 +22,7 @@
 				<!-- Thumbnail -->
 					<section id="thumbnails">
 						<article>
-							<a class="thumbnail" href="images/fulls/01.jpg" data-position="left center"><img src="images/thumbs/01.jpg" alt="" /></a>
+							<a class="thumbnail" href="images/fulls/Isaac Test Full" data-position="left center"><img src="images/thumbs/Isaac Test 1" alt="" /></a>
 							<h2>Diam tempus accumsan</h2>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 						</article>

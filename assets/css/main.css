@@ -963,7 +963,7 @@ input, select, textarea {
 	#background {
 		background: #000000;
 		position: absolute;
-		z-index: -1;
+		z-index: 0;
 		Height: 100vh;
 		Width: 100vw;
 	}

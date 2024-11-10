@@ -958,6 +958,15 @@ input, select, textarea {
 				#footer .copyright li:first-child {
 					margin-left: 0;
 				}
+/* Background */
+
+	#background {
+		background: #000000;
+		position: absolute;
+		z-index: -1;
+		Height: 100vh;
+		Width: 100vw;
+	}
 
 /* Thumbnails */
 

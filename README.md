@@ -1,9 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-	Lens by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
 		<title>Lens by HTML5 UP</title>
@@ -13,11 +8,7 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload-0 is-preload-1 is-preload-2">
-
-		<!-- Main -->
 			<div id="main">
-
-				<!-- Header -->
 					<header id="header">
 						<h1>Lens</h1>
 						<p>Just another fine responsive site template by <a href="http://html5up.net">HTML5 UP</a></p>
@@ -28,7 +19,6 @@
 							<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
 						</ul>
 					</header>
-
 				<!-- Thumbnail -->
 					<section id="thumbnails">
 						<article>
@@ -92,21 +82,17 @@
 							<p>Feugiat auctor leo massa, nec vestibulum nisl erat faucibus, rutrum nulla.</p>
 						</article>
 					</section>
-
 				<!-- Footer -->
 					<footer id="footer">
 						<ul class="copyright">
 							<li>&copy; Untitled.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a>.</li>
 						</ul>
 					</footer>
-
 			</div>
-
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/main.js"></script>
-
 	</body>
 </html>

@@ -7,6 +7,7 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload-0 is-preload-1 is-preload-2">
+			<div id="background" fill=white position=absolute width=100vw height=100vh>
 			<div id="main">
 					<header id="header">
 						<h1>Iacchus Illustrations</h1>

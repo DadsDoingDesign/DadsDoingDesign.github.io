@@ -9,7 +9,7 @@
 	<body class="is-preload-0 is-preload-1 is-preload-2">
 			<div id="main">
 					<header id="header">
-						<h1>Lens</h1>
+						<h1>Iacchus Illustrations</h1>
 						<p>Isaac Iacchus Lopez</p>
 						<p>Character design, comic style illustration, life drawing and portraits</p>
 						<ul class="icons">
@@ -22,7 +22,7 @@
 				<!-- Thumbnail -->
 					<section id="thumbnails">
 						<article>
-							<a class="thumbnail" href="images/fulls/Isaac Test Full" data-position="left center"><img src="images/thumbs/Isaac Test 1" alt="" /></a>
+							<a class="thumbnail" href="images/fulls/Isaac Test Full.png" data-position="left center"><img src="images/thumbs/Isaac Test 1.png" alt="" /></a>
 							<h2>Diam tempus accumsan</h2>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 						</article>

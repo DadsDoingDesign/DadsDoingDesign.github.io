@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Lens by HTML5 UP</title>
+		<title>Iacchus Illustrations</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -11,8 +11,8 @@
 			<div id="main">
 					<header id="header">
 						<h1>Lens</h1>
-						<p>Isaac Iacchus Lopez</a></p>
-						<p>Character design, comic style illustration, life drawing and portraits</a></p>
+						<p>Isaac Iacchus Lopez</p>
+						<p>Character design, comic style illustration, life drawing and portraits</p>
 						<ul class="icons">
 							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>

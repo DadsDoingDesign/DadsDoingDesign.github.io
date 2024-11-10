@@ -11,7 +11,8 @@
 			<div id="main">
 					<header id="header">
 						<h1>Lens</h1>
-						<p>Just another fine responsive site template by <a href="http://html5up.net">HTML5 UP</a></p>
+						<p>Isaac Iacchus Lopez</a></p>
+						<p>Character design, comic style illustration, life drawing and portraits</a></p>
 						<ul class="icons">
 							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>

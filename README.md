@@ -22,7 +22,7 @@
 				<!-- Thumbnail -->
 					<section id="thumbnails">
 						<article>
-							<a class="thumbnail" href="images/fulls/Isaac Test Full.png" data-position="left center"><img src="images/thumbs/Isaac Test 1.png" alt="" /></a>
+							<a class="thumbnail" href="images/fulls/Isaac Test Full.png" data-position="left center"><img src="images/thumbs/13.jpg" alt="" /></a>
 							<h2>Title</h2>
 							<p>Illustration of my magic sketch book</p>
 						</article>

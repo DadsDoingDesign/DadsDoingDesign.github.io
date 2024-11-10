@@ -23,8 +23,8 @@
 					<section id="thumbnails">
 						<article>
 							<a class="thumbnail" href="images/fulls/Isaac Test Full.png" data-position="left center"><img src="images/thumbs/Isaac Test 1.png" alt="" /></a>
-							<h2>Diam tempus accumsan</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							<h2>Title</h2>
+							<p>Illustration of my magic sketch book</p>
 						</article>
 						<article>
 							<a class="thumbnail" href="images/fulls/02.jpg"><img src="images/thumbs/02.jpg" alt="" /></a>

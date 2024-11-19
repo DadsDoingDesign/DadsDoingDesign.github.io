@@ -2036,9 +2036,7 @@ input, select, textarea {
 					transition-delay: 0.95s;
 				}
 
-/* assets/css/main.css */
-/* ... existing code ... */
-
+/* Animation for image loading */
 @keyframes fadeInScale {
     from {
         opacity: 0;
@@ -2057,6 +2055,7 @@ input, select, textarea {
 #main .thumb.visible {
     animation: fadeInScale 0.5s ease forwards;
 }
+
 
 		}
 

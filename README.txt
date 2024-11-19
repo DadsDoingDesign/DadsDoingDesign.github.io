@@ -1,31 +1,68 @@
-Multiverse by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-
-
-Say hello to Multiverse, a slick, one-page gallery design with a fully functional lightbox
-(courtesy of my Poptrox plugin for jQuery) and a custom, reusable "panel" system (click the
-"About" button in the lower right to see what I mean). Had a ton of fun putting this one
-together, and I hope you have as much fun working with it :)
-
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
-
-(* = not included)
-
-AJ
-aj@lkn.io | @ajlkn
-
-
-Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Poptrox (github.com/ajlkn/jquery.poptrox)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+<html>
+<head>
+    <title>Multiverse by HTML5 UP</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+<body class="is-preload">
+    <!-- Loading Spinner -->
+    <div id="loading" style="display: none;">Loading...</div>
+    <!-- Wrapper -->
+    <div id="wrapper">
+        <!-- Header -->
+        <header id="header">
+            <h1><a href="index.html"><strong>Multiverse</strong> by HTML5 UP</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="#footer" class="icon solid fa-info-circle">About</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- Main -->
+        <div id="main">
+            <article class="thumb">
+                <a href="images/fulls/01.jpg" class="image"><img src="images/thumbs/01.jpg" alt="" loading="lazy" decoding="async" /></a>
+                <h2>Magna feugiat lorem</h2>
+                <p>Nunc blandit nisi ligula magna sodales lectus elementum non. Integer id venenatis velit.</p>
+            </article>
+            <!-- Repeat for other articles -->
+        </div>
+        <!-- Footer -->
+        <footer id="footer" class="panel">
+            <div class="inner split">
+                <div>
+                    <section>
+                        <h2>Get in touch</h2>
+                        <form action="https://formspree.io/f/your_form_id" method="POST">
+                            <div class="fields">
+                                <div class="field half">
+                                    <input type="text" name="name" id="name" placeholder="Name" required />
+                                </div>
+                                <div class="field half">
+                                    <input type="email" name="email" id="email" placeholder="Email" required />
+                                </div>
+                                <div class="field">
+                                    <textarea name="message" id="message" rows="4" placeholder="Message" required></textarea>
+                                </div>
+                            </div>
+                            <ul class="actions">
+                                <li><input type="submit" value="Send" class="primary" /></li>
+                                <li><input type="reset" value="Reset" /></li>
+                            </ul>
+                        </form>
+                    </section>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.poptrox.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

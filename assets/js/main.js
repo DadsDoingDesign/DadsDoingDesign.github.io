@@ -2,10 +2,14 @@
 document.addEventListener('DOMContentLoaded', function() {
     const articles = document.querySelectorAll('#main .thumb');
     
+    // Show loading spinner on page load
+    document.getElementById('loading').style.display = 'block';
+
     // Calculate center of the screen
     const centerX = window.innerWidth / 2;
     const centerY = window.innerHeight / 2;
-    
+
+    // Load all images with a ripple effect
     articles.forEach((article, i) => {
         // Get element position
         const rect = article.getBoundingClientRect();
@@ -26,14 +30,10 @@ document.addEventListener('DOMContentLoaded', function() {
         }, delay);
     });
 
-    // Show loading spinner on page load
-    document.getElementById('loading').style.display = 'block';
-
     window.onload = function() {
         document.getElementById('loading').style.display = 'none';
     };
 });
-
     // Handle form submission
     const form = document.querySelector('form');
     form.addEventListener('submit', function(event) {

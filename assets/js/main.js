@@ -1,12 +1,25 @@
 // assets/js/main.js
 document.addEventListener('DOMContentLoaded', function() {
     const articles = document.querySelectorAll('#main .thumb');
+    const loadingSpinner = document.getElementById('loading');
     
     // Show loading spinner on page load
-    document.getElementById('loading').style.display = 'block';
+    loadingSpinner.style.display = 'block';
+
+    let imagesLoaded = 0;
+    const totalImages = articles.length;
 
     // Load all images with a ripple effect
-    articles.forEach((article, i) => {
+    articles.forEach((article) => {
+        const img = article.querySelector('img');
+        
+        img.onload = () => {
+            imagesLoaded++;
+            if (imagesLoaded === totalImages) {
+                loadingSpinner.style.display = 'none'; // Hide spinner when all images are loaded
+            }
+        };
+
         // Get element position
         const rect = article.getBoundingClientRect();
         const elementX = rect.left + (rect.width / 2);
@@ -27,11 +40,6 @@ document.addEventListener('DOMContentLoaded', function() {
             article.classList.add('visible');
         }, delay);
     });
-
-    // Hide loading spinner when all images are loaded
-    window.onload = function() {
-        document.getElementById('loading').style.display = 'none';
-    };
 });
 
 // Handle form submission

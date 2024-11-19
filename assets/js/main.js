@@ -32,6 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
     window.onload = function() {
         document.getElementById('loading').style.display = 'none';
     };
+});
 
     // Handle form submission
     const form = document.querySelector('form');
